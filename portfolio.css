@@ -1,0 +1,184 @@
+/*
+    Name: Galido, Alyanna Nicole P.
+    Section: CMSC 100 - UV1L
+    Description: This program contains the html code for my personal portfolio.
+*/
+
+/* Applies Montserrat font to all elements */
+* {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100px;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+
+/* Sets max height of body to 100% and removes margin */
+body {
+    max-height: 100%;
+    margin: 0%;
+}
+
+/* Styles for the header section */
+.header {
+    background-image: url('images/header.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0);
+    height: 500px;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px;
+    display: flex;
+}
+
+/* Styles for the logo within the header */
+.logo {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 120px;
+    padding-right: 25px;
+}
+
+/* Styles for navigation links */
+.nav {
+    color: white;
+}
+
+/* Styles for the navigation list */
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    align-items: center;
+}
+.nav-list li {
+    margin-right: 30px; 
+    color: white;
+}
+
+/* Styles for the featured photo section */
+.featured-photo {
+    background-color: whitesmoke;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+}
+
+/* Styles for the skills section */
+.skills-header {
+    color: #252525;
+    padding-left: 30px;
+}
+
+.skills {
+    width: 30%;
+    color: #252525;
+    background-color: white;
+    border-color: #252525;
+    border-width: 8px;
+    border-style: solid;
+    border-color: #252525;
+    border-radius: 1rem;
+}
+
+/* Styles for the autobiography section */
+.autobiography {
+    color: white;
+    width: 70%;
+    margin-left: 20px;
+    background-color: #252525;
+    border-radius: 1rem;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.paragraph {
+    color: white;
+    font-size: 18px;
+}
+
+.pls {
+    color: white;
+    font-size: 28px;
+}
+
+.langs {
+    color: white;
+    font-size: 20px;
+}
+
+/* Styles for the previous projects section header */
+.prevproj-header {
+    height: 100px;
+    background-color: #252525;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;  
+    border-radius: 1rem;
+}
+
+.projects-header {
+    color: white;
+    font-size: 30px;
+}
+
+/* Styles for the previous projects section */
+.previous-projects {
+    background-color: whitesmoke;
+    height: 240px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-style: solid;
+    border-color: #252525;
+    border-width: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    border-radius: 1rem;
+}
+
+/* Styles for individual projects within the previous projects section */
+.project-1, .project-2, .project-3 {
+    justify-content: center;
+    height: 200px;
+    width: 20%;
+    background-color: white;
+    border-width: 8px;
+    border-style: solid;
+    border-color: #252525;
+    border-radius: 1rem;
+}
+
+/* Styles for course and game within individual projects */
+.course, .game {
+    font-size: 30px;
+}
+
+/* Styles for the footer section */
+.footer {
+    border-top: #252525;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;  
+}
